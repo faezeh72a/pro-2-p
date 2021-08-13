@@ -1,0 +1,73 @@
+
+@font-face {
+    font-family: 'IRANSansWeb_Bold' ;
+    src: url("/fonts/IRANSansWeb_Bold.eot") format('eot');
+    src: url("/fonts/IRANSansWeb_Bold.ttf") format('ttf');
+    src: url("/fonts/IRANSansWeb_Bold.woff") format('woff');
+}
+
+body{
+    margin-top: 74px;
+    font-family:IRANSansWeb_Bold ;
+}
+.background-navbar {
+    background-color:#007FFF ;
+}
+.btn-nav{
+    padding:2px 30px 7px 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.btn-header{
+    padding: 4px 20px 4px 20px;
+    border-radius:20px;
+    background-color: whitesmoke;
+    color: #0a53be;
+}
+
+.btn-header:hover{
+    background-color: #0a53be;
+    color: whitesmoke;
+}
+
+
+.btn-box{
+    padding: 2px 2px 2px 2px;
+    background-color:#bfd5db;
+    border-radius: 3px;
+}
+
+
+
+.img-box{
+    height: 120px;
+    width: 120px;
+}
+
+.off-box{
+    padding: 3px 10px 3px 10px;
+    border-end-start-radius: 15px;
+    border-top-right-radius:15px ;
+
+
+}
+.box{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.border-radius-box{
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px ;
+}
+
+
+footer{
+    background-color: black;
+}
+
+
+
