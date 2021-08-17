@@ -1,0 +1,113 @@
+/*TOP BAR*/
+.topBar{background-color:#152865;color:#fff;padding:4px 16px 4px 4px;text-align:right}
+.topBar svg{fill:#ffffff;vertical-align:middle}
+/*if you want the top bar to show then delete the @media below or comment it out*/
+@media(max-width:768px){.topBar{display:none}}
+/***********************************************************************************************************MEGA MENU*/
+#MMlogo {
+    float: left;
+    padding:0 0 6px 0;
+}
+#MMlogo svg{fill:#ffffff}
+#MMmenu {
+    float: right;
+}
+.megaMenuWrap{
+    overflow: hidden;
+    background-color: #152865;
+    margin:0;
+    padding:0 10px;
+}
+
+.megaMenuWrap img {float:left}
+
+.megaMenuWrap a {
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+
+}
+
+.mmDrop {
+    float: right;
+    overflow: hidden;
+}
+
+.mmDrop .mmdropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 18px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+/*.megaMenuWrap a:hover, .mmDrop:hover .mmdropbtn {*/
+/*    background-color: rgba(255,255,255,0.1);*/
+/*}*/
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    /*You can change the width to your preference
+    width:100%; left:0
+    LEFT will align the sub-menu to the left and right is the same way
+    */
+    width: 90%;
+    left:5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
+.dropdown-content .mmheader {
+    background: #152865;
+    padding: 16px;
+    color: #ffffff;
+}
+
+.mmDrop:hover .dropdown-content {
+    display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.mmcolumn h3 {color:#152865}
+.mmcolumn {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    background-color: #F5F5F5;
+    height: auto;
+}
+
+.mmcolumn a {
+    float: none;
+    color: #152865;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.mmcolumn a:hover {
+    background-color: #C9EAFF;color:#152865
+}
+.mmrow .mmcolumn:nth-child(1), .mmcolumn:nth-child(2){border-right:1px solid #E0E0E0}
+/* Clear floats after the columns */
+.mmrow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .mmcolumn {
+        width: 100%;
+        height: auto;
+    }
+}
+/******************************************************************************************************************************************SECONDARYMENU**************************************/

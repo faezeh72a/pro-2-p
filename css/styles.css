@@ -9,73 +9,15 @@ body{
     font-family:'IRANSansWeb_Bold',sans-serif ;
 }
 
-
-.menu li ul {
-    display: none;
-    top: 100%;
-    left: 0;
-    padding: 0;
-    box-shadow: 0 0 10px #666;
-    width: 400px;
-    box-sizing: border-box;
-    height: 200px;
-}
-.menu li:hover ul {
-    display: block;
-}
-.menu li ul li {
-    width: 30.5%;
-    /*float: ;*/
-    display: inline-block;
-}
-.menu li a {
-    text-decoration: none;
-    transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-}
-.menu li a:hover, .menu li:hover a {
-    color: #0a53be;;
-    transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-}
-
-.menu li:hover ul {
-    display: block;
-}
-.menu li ul li {
-    display: inline-block;
-}
-.menu li:hover ul li a {
-    color: black;
-    transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-}
-.menu li:hover ul li:hover a {
-    color: #0a53be;
-    transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-}
-
 .background-navbar {
     background-color:#147fe1 ;
 }
 .btn-nav{
-    padding:2px 30px 7px 30px;
+    padding:2px 30px 3px 30px;
     background-color: white;
     border-radius: 20px;
 }
+
 .btn-nav:hover{
     background-color: #0a53be;
     color: whitesmoke;
@@ -129,25 +71,24 @@ body{
 
 
 footer{
-    background-color: black;
+    background-color: #181818;
 }
 
 .btn-background-header{
     background-color: rgba(0,0,0, 0.3);
-    padding: 25px 25px 25px 25px;
-    border-radius: 50px;
+    padding: 11px 10px 6px 10px;
+    border-radius: 25px;
 
 }
 
 
 .hr-footer{
-    border-top: 4px #fa6d18 solid;
+    border-top: 3px #fa6d18 solid;
 }
 
 .slick-arrow {
 
     background-color:darkgrey!important;
-    padding: 15px 15px 15px 15px;
     border-radius: 30px;
 
 
@@ -159,3 +100,94 @@ footer{
     border-radius: 10px !important;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mmDrop {
+    float: right;
+    overflow: hidden;
+}
+
+.mmDrop .mmdropbtn {
+    border: none;
+    outline: none;
+    color: white;
+    padding: 18px 16px;
+    background-color: inherit;
+    margin: 0;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    /*You can change the width to your preference
+    width:100%; left:0
+    LEFT will align the sub-menu to the left and right is the same way
+    */
+    width: 90%;
+    left:5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
+.dropdown-content .mmheader {
+    background: grey;
+    padding: 16px;
+    color: #ffffff;
+}
+
+.mmDrop:hover .dropdown-content {
+    display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+
+.mmcolumn {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    background-color: #F5F5F5;
+    height: auto;
+}
+
+.mmcolumn a {
+    float: none;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.mmcolumn a:hover {
+    background-color: lightgrey;color:grey;
+}
+.mmrow .mmcolumn:nth-child(1), .mmcolumn:nth-child(2){border-right:1px solid #E0E0E0}
+/* Clear floats after the columns */
+.mmrow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .mmcolumn {
+        width: 100%;
+        height: auto;
+    }
+}
+#MMmenu {
+     float: right;
+ }

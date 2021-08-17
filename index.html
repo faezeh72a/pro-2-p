@@ -22,22 +22,45 @@
         <a href="#" class="navbar-brand text-decoration-none text-white"><img src="img/logo.png" alt="logo"></a>
     </div>
         <div class="col-3 nav-list">
-            <ul class="menu list-unstyled d-block  position-relative">
-                <li class="d-inline-block px-3 pt-3"><a href="#" class="text-white">خانه</a></li>
-                <li class="d-inline-block px-3 pt-3"><a href="#" class="text-white text-decoration-none">وبلاگ</a></li>
-                <li class="d-inline-block px-3 pt-3"><a href="#" class="text-white">دسته بندی کالا</a>
-                    <ul class="position-absolute bg-light p-0">
-                        <li class="d-inline-block text-light p-3 border-bottom"><a href="#">Graphic Design</a></li>
-                        <li class="d-inline-block text-light p-3 border-bottom"><a href="#">UI & UX Design</a></li>
-                        <li class="d-inline-block text-light p-3 border-bottom"><a href="#">Template Design</a></li>
-                        <li class="d-inline-block text-light p-3 border-bottom"><a href="#">Frontend Development</a>
-                        </li>
-                        <li class="d-inline-block text-light p-3 border-bottom"><a href="#">Backend Development</a></li>
-                        <li class="d-inline-block text-light p-3 border-bottom"><a href="#">Wordpress Development</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+            <div class="megaMenuWrap">
+                <div class="mmDrop">
+                    <button class="mmdropbtn"> <i class="bi bi-chevron-compact-down"></i>
+                        دسته بندی کالا
+
+                    </button>
+                    <div class="dropdown-content">
+                        <div class="mmheader">
+                            <h2>Mega Menu</h2>
+                        </div>
+                        <div class="mmrow">
+                            <div class="mmcolumn text-secondary">
+                                <h3 class="text-secondary">Category 1</h3>
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                            <div class="mmcolumn text-secondary">
+                                <h3 class="text-secondary">Category 2</h3>
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                            <div class="mmcolumn text-secondary">
+                                <h3 class="text-secondary">Category 3</h3>
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="MMmenu" class="pt-3 px-1">
+                    <a href="#home" class="px-2 text-white text-decoration-none">خانه</a>
+                    <a href="#news" class="px-2 text-white text-decoration-none"><i class="bi bi-chevron-compact-down"></i>
+                        وبلاگ</a>
+                </div>
+            </div>
+
         </div>
         <div class="col-lg-3 nav-list">
             <ul class="list-unstyled pt-3">
@@ -45,10 +68,10 @@
                 </li>
                 <li class="list-inline-item px-1"><a href="#" class="text-decoration-none btn-nav">ورود</a>
                 </li>
-                <li class="list-inline-item px-1"><a href="#" class="text-decoration-none text-white h5"><i
+                <li class="list-inline-item ps-3 "><a href="#" class="text-decoration-none text-white h5"><i
                         class="bi bi-search"></i></a>
                 </li>
-                <li class="list-inline-item px-1"><a href="#" class="text-decoration-none text-white h5"><i
+                <li class="list-inline-item "><a href="#" class="text-decoration-none text-white h5"><i
                         class="bi bi-cart"></i></a>
                 </li>
             </ul>
@@ -873,19 +896,19 @@
     <div class="container px-5">
         <div class="row gx-5 justify-content-center py-5">
             <div class="col-lg-4 col-sm-12 text-center justify-content-center ">
-                <img src="img/pointer.png" alt="..." class="bg-light px-3 py-3 mt-3 img-icon">
+                <img src="img/CONECT.png" alt="..." class="bg-light px-3 py-3 mt-3 img-icon">
                 <h6 class="text center text-dark pt-3"><strong>طراحی و مارک تجاری</strong></h6>
                 <p class="text-center text-secondary">اگر توزیع حروف و کلمات توزیع تصادفی باشد خواننده حواس او را پرت
                     نمیکند</p>
             </div>
             <div class="col-lg-4 col-sm-12 text-center justify-content-center bg-primary rounded-3">
-                <img src="img/safe-mobile.png" alt="..." class="bg-light px-3 py-3 mt-3 img-icon">
+                <img src="img/ENVELOP.png" alt="..." class="bg-light px-3 py-3 mt-3 img-icon">
                 <h6 class="text-center text-white pt-3"><strong>کاملا امن</strong></h6>
                 <p class="text-center text-light">اگر توزیع حروف و کلمات توزیع تصادفی باشد خواننده حواس او را پرت
                     نمیکند</p>
             </div>
             <div class="col-lg-4 col-sm-12 text-center justify-content-center">
-                <img src="img/clock-rupee.png" alt="..." class="bg-light  px-3 py-3 mt-3 img-icon">
+                <img src="img/PERFORME.png" alt="..." class="bg-light  px-3 py-3 mt-3 img-icon">
                 <h6 class="text center text-dark pt-3"><strong>عملکرد بالا</strong></h6>
                 <p class="text-center text-secondary">اگر توزیع حروف و کلمات توزیع تصادفی باشد خواننده حواس او را پرت
                     نمیکند</p>
@@ -952,13 +975,13 @@
 <!--end section four-->
 
 <footer>
-    <div class="container pb-5">
-        <div class="row pt-5 gx-5">
+    <div class="container pb-5 ">
+        <div class="row pt-5 gx-5 ">
             <div class="col-lg-2 col-sm-6">
                 <ul class="list-unstyled">
-                    <div class="row">
-                    <li class="text-white pb-3 h6 col-5">اطلاعات</li>
-                        <div class="col-3 hr-footer mt-2">
+                    <div class="row pt-4">
+                    <li class="text-white pb-3 h6 col-5 ">اطلاعات</li>
+                        <div class="col-2 hr-footer mt-2">
                         </div>
                     </div>
                     <li class="text-secondary pb-1">نحوه ارسال سفارش</li>
@@ -968,10 +991,10 @@
                     <li class="text-secondary pb-1">گارانتی و بازگشت کالا</li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-2 col-sm-6 pt-4">
                 <ul class="list-unstyled">
 
-                    <div class="row">
+                    <div class="row ">
                         <li class="text-white pb-3 h6 col-5">حساب کاربری</li>
                         <div class="col-2 hr-footer mt-2 ">
                         </div>
@@ -982,7 +1005,7 @@
                     <li class="text-secondary pb-1">سوالات متداول</li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-sm-12 text-secondary">
+            <div class="col-lg-3 col-sm-12 text-secondary pt-4 ">
                 <img src="img/logo.png" alt="logo" class="pb-3">
                 <p class="ps-4">آدرس:ایران - زنجان</p>
                 <p class="ps-3">تلفن:09336854775 و 021545454</p>
@@ -990,20 +1013,22 @@
             </div>
 
                                <!--            کد مربوط به نقشه-->
-            <div class="col-lg-4 col-sm-12 m-auto">
+            <div class="col-lg-5 col-sm-12 m-auto pt-4">
                 <p class="">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3199.5204964784843!2d48.499373185603076!3d36.686028481819584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ff6113b9d019649%3A0x6108e41c9cd1ebaa!2z2YjYsdiy2LTar9in2Ycg2KfZhtmC2YTYp9ioINiy2YbYrNin2YY!5e0!3m2!1sfa!2s!4v1628777631894!5m2!1sfa!2s"
-                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            width="400" height="300" style="border:0; border-radius: 15px" allowfullscreen="" loading="lazy"></iframe>
                 </p>
 
             </div>
         </div>
-        <div class="row">
-            <div class="col-4 ms-5 mb-3">
-                <a href="#top"><strong><i
-                        class="bi bi-arrow-up-circle bg-light text-dark px-2 py-2 rounded-3"></i></strong></a>
+<!--        <div class="container">-->
+            <div class="row float-end">
+<!--                <div class="col-4 ms-5 mb-3">-->
+                    <a href="#top"><strong>
+                        <i class="bi bi-arrow-up-circle text-light h3"></i> </strong></a>
+<!--                </div>-->
             </div>
-        </div>
+<!--        </div>-->
     </div>
 
 
