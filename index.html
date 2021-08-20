@@ -18,18 +18,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body id="top">
-<nav class="fixed-top navbar background-navbar ">
-    <div class="col-3 text-center">
+<nav class="fixed-top navbar background-navbar " id="myP">
+    <div class="col-lg-3 text-center col-md-6">
         <a href="#" class="navbar-brand text-decoration-none text-white"><img src="img/logo.png" alt="logo"></a>
     </div>
-        <div class="col-3 nav-list ">
+<!--    <div class="collapse" id="navbarToggleExternalContent">-->
+<!--        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--            <span class="navbar-toggler-icon"></span>-->
+<!--        </button>-->
+        <div class="col-lg-3  col- md-6">
             <div class="megaMenuWrap">
                 <div class="mmDrop">
-                    <button class="mmdropbtn"> <i class="bi bi-chevron-compact-down"></i>
+                    <button class="mmdropbtn btn-menu"> <i class="bi bi-chevron-compact-down"></i>
                         دسته بندی کالا
 
                     </button>
-                    <div class="dropdown-content">
+                    <div class="dropdown-content" style="z-index: 10">
                         <div class="mmheader">
                             <h2>Mega Menu</h2>
                         </div>
@@ -56,18 +60,19 @@
                     </div>
                 </div>
                 <div id="MMmenu" class="pt-3 px-1">
-                    <a href="#home" class="px-2 text-white text-decoration-none">خانه</a>
-                    <a href="#news" class="px-2 text-white text-decoration-none"><i class="bi bi-chevron-compact-down"></i>
+                    <a href="#home" class="px-2 text-white text-decoration-none btn-menu">خانه</a>
+                    <a href="#news" class="px-2 text-white text-decoration-none btn-menu"><i class="bi bi-chevron-compact-down"></i>
                         وبلاگ</a>
                 </div>
             </div>
 
         </div>
-        <div class="col-lg-3 ">
+<!--    </div>-->
+        <div class="col-lg-3 col-md-12">
             <ul class="list-unstyled m-auto">
-                <li class="list-inline-item px-1"><a href="#" class="text-decoration-none text-white">ثبت نام</a>
+                <li class="list-inline-item px-1"><a href="#" class="text-decoration-none text-white btn-menu">ثبت نام</a>
                 </li>
-                <li class="list-inline-item px-1 "><a href="#" class="text-decoration-none btn-nav ">ورود</a>
+                <li class="list-inline-item px-1 "><a href="#" class="text-decoration-none btn-nav">ورود</a>
                 </li>
                 <li class="list-inline-item ps-3"><a href="#" class="text-decoration-none text-white "><i
                         class="bi bi-search " style="font-size: 20px;"></i></a>
@@ -86,11 +91,11 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active text-white" data-bs-interval="10000">
-                <img src="img/black.jpg" class="d-block w-100 card-img" alt="..." style="height: 580px" >
+                <img src="img/black.jpg" class="d-block w-100 card-img" alt="..." style="height: 650px" >
                 <div class="card-img-overlay mt-5 pt-5">
                     <div class="row">
                         <div class="d-flex justify-content-center" >
-                            <div class="col-lg-8 col-md-12  text-sm-center mt-5 pt-4" >
+                            <div class="col-lg-8 col-md-12  text-sm-center mt-5 pt-5" >
                                 <h2 class="display-5 text-center mt-md-0 mt-5">توضیحات</h2>
                                 <h2 class="text-center pb-3"><strong>روغن زیتون</strong></h2>
                                 <p class=" h6 text-center pb-3">از برفا خرید کنید و زندگی سالم داشته
@@ -103,11 +108,11 @@
                 </div>
             </div>
             <div class="carousel-item text-white" data-bs-interval="2000">
-                <img src="img/black.jpg" class="d-block w-100 card-img" alt="..." style="height: 580px">
+                <img src="img/black.jpg" class="d-block w-100 card-img" alt="..." style="height: 650px">
                 <div class="card-img-overlay mt-5 pt-5">
                     <div class="row">
                         <div class="d-flex justify-content-center" >
-                            <div class="col-lg-8 col-md-12  text-sm-center mt-5 pt-4" >
+                            <div class="col-lg-8 col-md-12  text-sm-center mt-5 pt-5" >
                                 <h2 class="display-5 text-center mt-md-0 mt-5">توضیحات</h2>
                                 <h2 class="text-center pb-3"><strong>روغن زیتون</strong></h2>
                                 <p class=" h6 text-center pb-3">از برفا خرید کنید و زندگی سالم داشته
@@ -120,11 +125,11 @@
                 </div>
             </div>
             <div class="carousel-item text-white" data-bs-interval="2000">
-                <img src="img/black.jpg" class="d-block w-100 card-img" alt="..." style="height: 580px">
+                <img src="img/black.jpg" class="d-block w-100 card-img" alt="..." style="height: 650px">
                 <div class="card-img-overlay mt-5 pt-5">
                     <div class="row">
                         <div class="d-flex justify-content-center" >
-                            <div class="col-lg-8 col-md-12  text-sm-center mt-5 pt-4" >
+                            <div class="col-lg-8 col-md-12  text-sm-center mt-5 pt-5" >
                                 <h2 class="display-5 text-center mt-md-0 mt-5">توضیحات</h2>
                                 <h2 class="text-center pb-3"><strong>روغن زیتون</strong></h2>
                                 <p class=" h6 text-center pb-3">از برفا خرید کنید و زندگی سالم داشته
@@ -176,300 +181,319 @@
             </div>
         </div>
         <div class="row slider">
-            <div class=" col-md-12 my-3 px-4 ">
+            <div class=" col-sm-12 px-3 my-3">
                 <a href="#">
                     <div class="bg-light card box">
                         <div class="row">
-                            <div class="col-8 ps-5 pt-4">
+                            <div class="col-7 ps-5 pt-4">
                                 <a class=" text-decoration-none text-secondary" href="#">
-                                    <i class="bi bi-suit-heart"></i>
+                                    <i class="bi bi-suit-heart"style="font-size: 23px"></i>
                                 </a>
                             </div>
-                            <div class="col-4 pt-4 text-end">
+                            <div class="col-5 pt-4 text-end">
                                 <a class=" off-box bg-danger text-white text-decoration-none">15%</a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-12 pb-2 ">
+                            <div class="col-12 pb-1">
                                 <img src="img/bottle.png" class="card-img-top img-box m-auto" alt="محصول">
                             </div>
                         </div>
                         <div class="card-body bg-white border-radius-box">
-                            <div class="row px-2" style="margin-top: -10px">
-                                <div class="col-7">
-                                    <p class="h4 text-start text-secondary pt-1">روغن زیتون 00003</p>
+                            <div class="row px-2">
+                                <div class="col-9">
+                                    <p class=" text-start text-secondary" style="font-size: 30px;">روغن زیتون 00003</p>
+                                    <div class="col-12  d-flex justify-content-start ms-1"style="margin-top:-10px;font-family: 'IRANSansWeb', sans-serif">
+                                        <a href="#" class="btn-box text-decoration-none me-2 ">رنگ: زرد</a>
+                                        <a href="#" class="btn-box text-decoration-none me-2 ">مزه: ترش</a>
+                                        <a href="#" class="btn-box text-decoration-none me-2 ">طمع: لورم</a>
+                                    </div>
                                 </div>
-                                <div class="col-5">
+                                <div class="col-3">
                                     <a class="text-decoration-none text-white" href="#">
-                                        <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-35px;z-index:5;left: -10px; padding: 13px 13px"></i>
+                                        <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-45px;z-index:5;left: -10px; padding: 15px 15px"></i>
                                     </a>
                                 </div>
+
                             </div>
-                            <div class="row" style="margin-top:-10px;">
-                                <div class="col-lg-4 col-6">
-                                <p class="ps-1">
-                                    <del class="text-secondary">55000 تومان</del>
-                                </p>
+
+                            <div class="row pt-4" style="margin-bottom: -20px">
+                                <div class="col-lg-5 col-6">
+                                    <p class="ps-1">
+                                        <del class="text-secondary" style="font-size: 23px">55000 تومان</del>
+                                    </p>
                                 </div>
-                                <div class="col-lg-4 col-6 text-start">
-                                <h5 >40000 تومان</h5>
+                                <div class="col-lg-5 col-6 text-start">
+                                    <h4>40000 تومان</h4>
                                 </div>
                             </div>
-                            <div class="col-12 text-primary pt-2  d-flex justify-content-start ms-1">
-                                <a href="#" class="btn-box text-decoration-none me-2">رنگ</a>
-                                <a href="#" class="btn-box text-decoration-none me-2">مزه</a>
-                                <a href="#" class="btn-box text-decoration-none me-2">طمع</a>
-                            </div>
+
                         </div>
 
                     </div>
                 </a>
             </div>
-            <div class=" col-md-12 my-3 px-4 ">
+            <div class=" col-sm-12 px-3 my-3">
                 <a href="#">
                     <div class="bg-light card box">
                         <div class="row">
-                            <div class="col-8 ps-5 pt-4">
+                            <div class="col-7 ps-5 pt-4">
                                 <a class=" text-decoration-none text-secondary" href="#">
-                                    <i class="bi bi-suit-heart"></i>
+                                    <i class="bi bi-suit-heart"style="font-size: 23px"></i>
                                 </a>
                             </div>
-                            <div class="col-4 pt-4 text-end">
+                            <div class="col-5 pt-4 text-end">
                                 <a class=" off-box bg-danger text-white text-decoration-none">15%</a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-12 pb-2 ">
+                            <div class="col-12 pb-1">
                                 <img src="img/bottle.png" class="card-img-top img-box m-auto" alt="محصول">
                             </div>
                         </div>
                         <div class="card-body bg-white border-radius-box">
-                            <div class="row px-2" style="margin-top: -10px">
-                                <div class="col-7">
-                                    <p class="h4 text-start text-secondary pt-1">روغن زیتون 00003</p>
+                            <div class="row px-2">
+                                <div class="col-9">
+                                    <p class=" text-start text-secondary" style="font-size: 30px;">روغن زیتون 00003</p>
+                                    <div class="col-12  d-flex justify-content-start ms-1"style="margin-top:-10px;font-family: 'IRANSansWeb', sans-serif">
+                                        <a href="#" class="btn-box text-decoration-none me-2 ">رنگ: زرد</a>
+                                        <a href="#" class="btn-box text-decoration-none me-2 ">مزه: ترش</a>
+                                        <a href="#" class="btn-box text-decoration-none me-2 ">طمع: لورم</a>
+                                    </div>
                                 </div>
-                                <div class="col-5">
+                                <div class="col-3">
                                     <a class="text-decoration-none text-white" href="#">
-                                        <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-35px;z-index:5;left: -10px; padding: 13px 13px"></i>
+                                        <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-45px;z-index:5;left: -10px; padding: 15px 15px"></i>
                                     </a>
                                 </div>
+
                             </div>
-                            <div class="row" style="margin-top:-10px;">
-                                <div class="col-lg-4 col-6">
-                                <p class="ps-1">
-                                    <del class="text-secondary">55000 تومان</del>
-                                </p>
+
+                            <div class="row pt-4" style="margin-bottom: -20px">
+                                <div class="col-lg-5 col-6">
+                                    <p class="ps-1">
+                                        <del class="text-secondary" style="font-size: 23px">55000 تومان</del>
+                                    </p>
                                 </div>
-                                <div class="col-lg-4 col-6 text-start">
-                                <h5 >40000 تومان</h5>
+                                <div class="col-lg-5 col-6 text-start">
+                                    <h4>40000 تومان</h4>
                                 </div>
                             </div>
-                            <div class="col-12 text-primary pt-2  d-flex justify-content-start ms-1">
-                                <a href="#" class="btn-box text-decoration-none me-2">رنگ</a>
-                                <a href="#" class="btn-box text-decoration-none me-2">مزه</a>
-                                <a href="#" class="btn-box text-decoration-none me-2">طمع</a>
-                            </div>
+
                         </div>
 
                     </div>
                 </a>
             </div>
-            <div class=" col-md-12 my-3 px-4 ">
+            <div class=" col-sm-12 px-3 my-3">
                 <a href="#">
                     <div class="bg-light card box">
                         <div class="row">
-                            <div class="col-8 ps-5 pt-4">
+                            <div class="col-7 ps-5 pt-4">
                                 <a class=" text-decoration-none text-secondary" href="#">
-                                    <i class="bi bi-suit-heart"></i>
+                                    <i class="bi bi-suit-heart"style="font-size: 23px"></i>
                                 </a>
                             </div>
-                            <div class="col-4 pt-4 text-end">
+                            <div class="col-5 pt-4 text-end">
                                 <a class=" off-box bg-danger text-white text-decoration-none">15%</a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-12 pb-2 ">
+                            <div class="col-12 pb-1">
                                 <img src="img/bottle.png" class="card-img-top img-box m-auto" alt="محصول">
                             </div>
                         </div>
                         <div class="card-body bg-white border-radius-box">
-                            <div class="row px-2" style="margin-top: -10px">
-                                <div class="col-7">
-                                    <p class="h4 text-start text-secondary pt-1">روغن زیتون 00003</p>
+                            <div class="row px-2">
+                                <div class="col-9">
+                                    <p class=" text-start text-secondary" style="font-size: 30px;">روغن زیتون 00003</p>
+                                    <div class="col-12  d-flex justify-content-start ms-1"style="margin-top:-10px;font-family: 'IRANSansWeb', sans-serif">
+                                        <a href="#" class="btn-box text-decoration-none me-2 ">رنگ: زرد</a>
+                                        <a href="#" class="btn-box text-decoration-none me-2 ">مزه: ترش</a>
+                                        <a href="#" class="btn-box text-decoration-none me-2 ">طمع: لورم</a>
+                                    </div>
                                 </div>
-                                <div class="col-5">
+                                <div class="col-3">
                                     <a class="text-decoration-none text-white" href="#">
-                                        <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-35px;z-index:5;left: -10px; padding: 13px 13px"></i>
+                                        <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-45px;z-index:5;left: -10px; padding: 15px 15px"></i>
                                     </a>
                                 </div>
+
                             </div>
-                            <div class="row" style="margin-top:-10px;">
-                                <div class="col-lg-4 col-6">
-                                <p class="ps-1">
-                                    <del class="text-secondary">55000 تومان</del>
-                                </p>
+
+                            <div class="row pt-4" style="margin-bottom: -20px">
+                                <div class="col-lg-5 col-6">
+                                    <p class="ps-1">
+                                        <del class="text-secondary" style="font-size: 23px">55000 تومان</del>
+                                    </p>
                                 </div>
-                                <div class="col-lg-4 col-6 text-start">
-                                <h5 >40000 تومان</h5>
+                                <div class="col-lg-5 col-6 text-start">
+                                    <h4>40000 تومان</h4>
                                 </div>
                             </div>
-                            <div class="col-12 text-primary pt-2  d-flex justify-content-start ms-1">
-                                <a href="#" class="btn-box text-decoration-none me-2">رنگ</a>
-                                <a href="#" class="btn-box text-decoration-none me-2">مزه</a>
-                                <a href="#" class="btn-box text-decoration-none me-2">طمع</a>
-                            </div>
+
                         </div>
 
                     </div>
                 </a>
             </div>
-            <div class=" col-md-12 my-3 px-4 ">
+            <div class=" col-sm-12 px-3 my-3">
                 <a href="#">
                     <div class="bg-light card box">
                         <div class="row">
-                            <div class="col-8 ps-5 pt-4">
+                            <div class="col-7 ps-5 pt-4">
                                 <a class=" text-decoration-none text-secondary" href="#">
-                                    <i class="bi bi-suit-heart"></i>
+                                    <i class="bi bi-suit-heart"style="font-size: 23px"></i>
                                 </a>
                             </div>
-                            <div class="col-4 pt-4 text-end">
+                            <div class="col-5 pt-4 text-end">
                                 <a class=" off-box bg-danger text-white text-decoration-none">15%</a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-12 pb-2 ">
+                            <div class="col-12 pb-1">
                                 <img src="img/bottle.png" class="card-img-top img-box m-auto" alt="محصول">
                             </div>
                         </div>
                         <div class="card-body bg-white border-radius-box">
-                            <div class="row px-2" style="margin-top: -10px">
-                                <div class="col-7">
-                                    <p class="h4 text-start text-secondary pt-1">روغن زیتون 00003</p>
+                            <div class="row px-2">
+                                <div class="col-9">
+                                    <p class=" text-start text-secondary" style="font-size: 30px;">روغن زیتون 00003</p>
+                                    <div class="col-12  d-flex justify-content-start ms-1"style="margin-top:-10px;font-family: 'IRANSansWeb', sans-serif">
+                                        <a href="#" class="btn-box text-decoration-none me-2 ">رنگ: زرد</a>
+                                        <a href="#" class="btn-box text-decoration-none me-2 ">مزه: ترش</a>
+                                        <a href="#" class="btn-box text-decoration-none me-2 ">طمع: لورم</a>
+                                    </div>
                                 </div>
-                                <div class="col-5">
+                                <div class="col-3">
                                     <a class="text-decoration-none text-white" href="#">
-                                        <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-35px;z-index:5;left: -10px; padding: 13px 13px"></i>
+                                        <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-45px;z-index:5;left: -10px; padding: 15px 15px"></i>
                                     </a>
                                 </div>
+
                             </div>
-                            <div class="row" style="margin-top:-10px;">
-                                <div class="col-lg-4 col-6">
-                                <p class="ps-1">
-                                    <del class="text-secondary">55000 تومان</del>
-                                </p>
+
+                            <div class="row pt-4" style="margin-bottom: -20px">
+                                <div class="col-lg-5 col-6">
+                                    <p class="ps-1">
+                                        <del class="text-secondary" style="font-size: 23px">55000 تومان</del>
+                                    </p>
                                 </div>
-                                <div class="col-lg-4 col-6 text-start">
-                                <h5 >40000 تومان</h5>
+                                <div class="col-lg-5 col-6 text-start">
+                                    <h4>40000 تومان</h4>
                                 </div>
                             </div>
-                            <div class="col-12 text-primary pt-2  d-flex justify-content-start ms-1">
-                                <a href="#" class="btn-box text-decoration-none me-2">رنگ</a>
-                                <a href="#" class="btn-box text-decoration-none me-2">مزه</a>
-                                <a href="#" class="btn-box text-decoration-none me-2">طمع</a>
-                            </div>
+
                         </div>
 
                     </div>
                 </a>
             </div>
-            <div class=" col-md-12 my-3 px-4 ">
+            <div class=" col-sm-12 px-3 my-3">
                 <a href="#">
                     <div class="bg-light card box">
                         <div class="row">
-                            <div class="col-8 ps-5 pt-4">
+                            <div class="col-7 ps-5 pt-4">
                                 <a class=" text-decoration-none text-secondary" href="#">
-                                    <i class="bi bi-suit-heart"></i>
+                                    <i class="bi bi-suit-heart"style="font-size: 23px"></i>
                                 </a>
                             </div>
-                            <div class="col-4 pt-4 text-end">
+                            <div class="col-5 pt-4 text-end">
                                 <a class=" off-box bg-danger text-white text-decoration-none">15%</a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-12 pb-2 ">
+                            <div class="col-12 pb-1">
                                 <img src="img/bottle.png" class="card-img-top img-box m-auto" alt="محصول">
                             </div>
                         </div>
                         <div class="card-body bg-white border-radius-box">
-                            <div class="row px-2" style="margin-top: -10px">
-                                <div class="col-7">
-                                    <p class="h4 text-start text-secondary pt-1">روغن زیتون 00003</p>
+                            <div class="row px-2">
+                                <div class="col-9">
+                                    <p class=" text-start text-secondary" style="font-size: 30px;">روغن زیتون 00003</p>
+                                    <div class="col-12  d-flex justify-content-start ms-1"style="margin-top:-10px;font-family: 'IRANSansWeb', sans-serif">
+                                        <a href="#" class="btn-box text-decoration-none me-2 ">رنگ: زرد</a>
+                                        <a href="#" class="btn-box text-decoration-none me-2 ">مزه: ترش</a>
+                                        <a href="#" class="btn-box text-decoration-none me-2 ">طمع: لورم</a>
+                                    </div>
                                 </div>
-                                <div class="col-5">
+                                <div class="col-3">
                                     <a class="text-decoration-none text-white" href="#">
-                                        <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-35px;z-index:5;left: -10px; padding: 13px 13px"></i>
+                                        <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-45px;z-index:5;left: -10px; padding: 15px 15px"></i>
                                     </a>
                                 </div>
+
                             </div>
-                            <div class="row" style="margin-top:-10px;">
-                                <div class="col-lg-4 col-6">
-                                <p class="ps-1">
-                                    <del class="text-secondary">55000 تومان</del>
-                                </p>
+
+                            <div class="row pt-4" style="margin-bottom: -20px">
+                                <div class="col-lg-5 col-6">
+                                    <p class="ps-1">
+                                        <del class="text-secondary" style="font-size: 23px">55000 تومان</del>
+                                    </p>
                                 </div>
-                                <div class="col-lg-4 col-6 text-start">
-                                <h5 >40000 تومان</h5>
+                                <div class="col-lg-5 col-6 text-start">
+                                    <h4>40000 تومان</h4>
                                 </div>
                             </div>
-                            <div class="col-12 text-primary pt-2  d-flex justify-content-start ms-1">
-                                <a href="#" class="btn-box text-decoration-none me-2">رنگ</a>
-                                <a href="#" class="btn-box text-decoration-none me-2">مزه</a>
-                                <a href="#" class="btn-box text-decoration-none me-2">طمع</a>
-                            </div>
+
                         </div>
 
                     </div>
                 </a>
             </div>
-            <div class=" col-md-12 my-3 px-4 ">
+            <div class=" col-sm-12 px-3 my-3">
                 <a href="#">
                     <div class="bg-light card box">
                         <div class="row">
-                            <div class="col-8 ps-5 pt-4">
+                            <div class="col-7 ps-5 pt-4">
                                 <a class=" text-decoration-none text-secondary" href="#">
-                                    <i class="bi bi-suit-heart"></i>
+                                    <i class="bi bi-suit-heart"style="font-size: 23px"></i>
                                 </a>
                             </div>
-                            <div class="col-4 pt-4 text-end">
+                            <div class="col-5 pt-4 text-end">
                                 <a class=" off-box bg-danger text-white text-decoration-none">15%</a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-12 pb-2 ">
+                            <div class="col-12 pb-1">
                                 <img src="img/bottle.png" class="card-img-top img-box m-auto" alt="محصول">
                             </div>
                         </div>
                         <div class="card-body bg-white border-radius-box">
-                            <div class="row px-2" style="margin-top: -10px">
-                                <div class="col-7">
-                                    <p class="h4 text-start text-secondary pt-1">روغن زیتون 00003</p>
+                            <div class="row px-2">
+                                <div class="col-9">
+                                    <p class=" text-start text-secondary" style="font-size: 30px;">روغن زیتون 00003</p>
+                                    <div class="col-12  d-flex justify-content-start ms-1"style="margin-top:-10px;font-family: 'IRANSansWeb', sans-serif">
+                                        <a href="#" class="btn-box text-decoration-none me-2 ">رنگ: زرد</a>
+                                        <a href="#" class="btn-box text-decoration-none me-2 ">مزه: ترش</a>
+                                        <a href="#" class="btn-box text-decoration-none me-2 ">طمع: لورم</a>
+                                    </div>
                                 </div>
-                                <div class="col-5">
+                                <div class="col-3">
                                     <a class="text-decoration-none text-white" href="#">
-                                        <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-35px;z-index:5;left: -10px; padding: 13px 13px"></i>
+                                        <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-45px;z-index:5;left: -10px; padding: 15px 15px"></i>
                                     </a>
                                 </div>
+
                             </div>
-                            <div class="row" style="margin-top:-10px;">
-                                <div class="col-lg-4 col-6">
-                                <p class="ps-1">
-                                    <del class="text-secondary">55000 تومان</del>
-                                </p>
+
+                            <div class="row pt-4" style="margin-bottom: -20px">
+                                <div class="col-lg-5 col-6">
+                                    <p class="ps-1">
+                                        <del class="text-secondary" style="font-size: 23px">55000 تومان</del>
+                                    </p>
                                 </div>
-                                <div class="col-lg-4 col-6 text-start">
-                                <h5 >40000 تومان</h5>
+                                <div class="col-lg-5 col-6 text-start">
+                                    <h4>40000 تومان</h4>
                                 </div>
                             </div>
-                            <div class="col-12 text-primary pt-2  d-flex justify-content-start ms-1">
-                                <a href="#" class="btn-box text-decoration-none me-2">رنگ</a>
-                                <a href="#" class="btn-box text-decoration-none me-2">مزه</a>
-                                <a href="#" class="btn-box text-decoration-none me-2">طمع</a>
-                            </div>
+
                         </div>
 
                     </div>
                 </a>
             </div>
+        </div>
 
 
         </div>
@@ -481,10 +505,10 @@
     <div class="bg-light pb-4">
         <div class="container">
             <div class="row pt-4">
-                <div class="col-lg-2 col-sm-4 mt-4">
-                    <h4 class="text-dark">محصولات اخیر</h4>
-                </div>
-                <div class="col-lg-10 col-sm-8 mt-4 ">
+                <div class="col-lg-2 col-8 mt-4">
+                    <h4 class="text-dark ">محصولات اخیر</h4>
+                    </div>
+                <div class="col-lg-10 col-4 mt-4 ">
                     <p class="text-end h5 pe-4"><a href="#" class="text-decoration-none text-secondary">مشاهده همه</a></p>
                 </div>
                 <div class="row">
@@ -500,149 +524,158 @@
 
                   <!--            کد مربوط به box خرید-->
             <div class="container">
-                <div class="row gx-5">
-                    <div class=" col-lg-4 col-sm-12 my-3 ">
+                <div class="row">
+                    <div class=" col-lg-4 col-12 my-3 px-3 ">
+                    <a href="#">
+                        <div class="bg-light card box">
+                            <div class="row">
+                                <div class="col-7 ps-5 pt-4">
+                                    <a class=" text-decoration-none text-secondary" href="#">
+                                        <i class="bi bi-suit-heart"style="font-size: 23px"></i>
+                                    </a>
+                                </div>
+                                <div class="col-5 pt-4 text-end">
+                                    <a class=" off-box bg-danger text-white text-decoration-none">15%</a>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class=" d-flex justify-content-center">
+                                    <img src="img/bottle.png" class="card-img-top img-box pb-1" alt="محصول">
+                                </div>
+                            </div>
+                            <div class="card-body bg-white border-radius-box">
+                                <div class="row px-2">
+                                    <div class="col-9">
+                                        <p class=" text-start text-secondary" style="font-size: 30px;">روغن زیتون 00003</p>
+                                        <div class="col-12  d-flex justify-content-start ms-1"style="margin-top:-10px;font-family: 'IRANSansWeb', sans-serif">
+                                            <a href="#" class="btn-box text-decoration-none me-2 ">رنگ: زرد</a>
+                                            <a href="#" class="btn-box text-decoration-none me-2 ">مزه: ترش</a>
+                                            <a href="#" class="btn-box text-decoration-none me-2 ">طمع: لورم</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <a class="text-decoration-none text-white" href="#">
+                                            <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-45px;z-index:5;left: -10px; padding: 15px 15px"></i>
+                                        </a>
+                                    </div>
+
+                                </div>
+
+                                <div class="row pt-4" style="margin-bottom: -20px">
+                                    <div class="col-lg-5 col-6">
+                                        <p class="ps-1">
+                                            <del class="text-secondary" style="font-size: 23px">55000 تومان</del>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-5 col-6 text-start">
+                                        <h4>40000 تومان</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+                    <div class=" col-lg-4 col-12 my-3 px-3 ">
                         <a href="#">
                             <div class="bg-light card box">
                                 <div class="row">
-                                    <div class="col-8 ps-5 pt-4">
+                                    <div class="col-7 ps-5 pt-4">
                                         <a class=" text-decoration-none text-secondary" href="#">
-                                            <i class="bi bi-suit-heart"></i>
+                                            <i class="bi bi-suit-heart"style="font-size: 23px"></i>
                                         </a>
                                     </div>
-                                    <div class="col-4 pt-4 text-end">
+                                    <div class="col-5 pt-4 text-end">
                                         <a class=" off-box bg-danger text-white text-decoration-none">15%</a>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="pb-2 col-6 offset-3">
-                                        <img src="img/bottle.png" class="card-img-top img-box m-auto" alt="محصول">
+                                <div class="row ">
+                                    <div class=" d-flex justify-content-center">
+                                        <img src="img/bottle.png" class="card-img-top img-box pb-1" alt="محصول">
                                     </div>
                                 </div>
                                 <div class="card-body bg-white border-radius-box">
-                                    <div class="row px-2" style="margin-top: -10px">
-                                        <div class="col-7">
-                                            <p class="h4 text-start text-secondary pt-1">روغن زیتون 00003</p>
+                                    <div class="row px-2">
+                                        <div class="col-9">
+                                            <p class=" text-start text-secondary" style="font-size: 30px;">روغن زیتون 00003</p>
+                                            <div class="col-12  d-flex justify-content-start ms-1"style="margin-top:-10px;font-family: 'IRANSansWeb', sans-serif">
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">رنگ: زرد</a>
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">مزه: ترش</a>
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">طمع: لورم</a>
+                                            </div>
                                         </div>
-                                        <div class="col-5">
+                                        <div class="col-3">
                                             <a class="text-decoration-none text-white" href="#">
-                                                <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-35px;z-index:5;left: -10px; padding: 13px 13px"></i>
+                                                <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-45px;z-index:5;left: -10px; padding: 15px 15px"></i>
                                             </a>
                                         </div>
+
                                     </div>
-                                    <div class="row" style="margin-top:-10px;">
-                                        <div class="col-lg-4 col-6">
+
+                                    <div class="row pt-4" style="margin-bottom: -20px">
+                                        <div class="col-lg-5 col-6">
                                             <p class="ps-1">
-                                                <del class="text-secondary">55000 تومان</del>
+                                                <del class="text-secondary" style="font-size: 23px">55000 تومان</del>
                                             </p>
                                         </div>
-                                        <div class="col-lg-4 col-6 text-start">
-                                            <h5 >40000 تومان</h5>
+                                        <div class="col-lg-5 col-6 text-start">
+                                            <h4>40000 تومان</h4>
                                         </div>
                                     </div>
-                                    <div class="col-12 text-primary pt-2  d-flex justify-content-start ms-1">
-                                        <a href="#" class="btn-box text-decoration-none me-2">رنگ</a>
-                                        <a href="#" class="btn-box text-decoration-none me-2">مزه</a>
-                                        <a href="#" class="btn-box text-decoration-none me-2">طمع</a>
-                                    </div>
+
                                 </div>
 
                             </div>
                         </a>
                     </div>
-                    <div class=" col-lg-4 col-sm-12 my-3 ">
+                    <div class=" col-lg-4 col-12 my-3 px-3 ">
                         <a href="#">
                             <div class="bg-light card box">
                                 <div class="row">
-                                    <div class="col-8 ps-5 pt-4">
+                                    <div class="col-7 ps-5 pt-4">
                                         <a class=" text-decoration-none text-secondary" href="#">
-                                            <i class="bi bi-suit-heart"></i>
+                                            <i class="bi bi-suit-heart"style="font-size: 23px"></i>
                                         </a>
                                     </div>
-                                    <div class="col-4 pt-4 text-end">
+                                    <div class="col-5 pt-4 text-end">
                                         <a class=" off-box bg-danger text-white text-decoration-none">15%</a>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="pb-2 col-6 offset-3">
-                                        <img src="img/bottle.png" class="card-img-top img-box m-auto" alt="محصول">
+                                <div class="row ">
+                                    <div class=" d-flex justify-content-center">
+                                        <img src="img/bottle.png" class="card-img-top img-box pb-1" alt="محصول">
                                     </div>
                                 </div>
                                 <div class="card-body bg-white border-radius-box">
-                                    <div class="row px-2" style="margin-top: -10px">
-                                        <div class="col-7">
-                                            <p class="h4 text-start text-secondary pt-1">روغن زیتون 00003</p>
+                                    <div class="row px-2">
+                                        <div class="col-9">
+                                            <p class=" text-start text-secondary" style="font-size: 30px;">روغن زیتون 00003</p>
+                                            <div class="col-12  d-flex justify-content-start ms-1"style="margin-top:-10px;font-family: 'IRANSansWeb', sans-serif">
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">رنگ: زرد</a>
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">مزه: ترش</a>
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">طمع: لورم</a>
+                                            </div>
                                         </div>
-                                        <div class="col-5">
+                                        <div class="col-3">
                                             <a class="text-decoration-none text-white" href="#">
-                                                <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-35px;z-index:5;left: -10px; padding: 13px 13px"></i>
+                                                <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-45px;z-index:5;left: -10px; padding: 15px 15px"></i>
                                             </a>
                                         </div>
-                                    </div>
-                                    <div class="row" style="margin-top:-10px;">
-                                        <div class="col-lg-4 col-6">
-                                            <p class="ps-1">
-                                                <del class="text-secondary">55000 تومان</del>
-                                            </p>
-                                        </div>
-                                        <div class="col-lg-4 col-6 text-start">
-                                            <h5 >40000 تومان</h5>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 text-primary pt-2  d-flex justify-content-start ms-1">
-                                        <a href="#" class="btn-box text-decoration-none me-2">رنگ</a>
-                                        <a href="#" class="btn-box text-decoration-none me-2">مزه</a>
-                                        <a href="#" class="btn-box text-decoration-none me-2">طمع</a>
-                                    </div>
-                                </div>
 
-                            </div>
-                        </a>
-                    </div>
-                    <div class=" col-lg-4 col-sm-12 my-3 ">
-                        <a href="#">
-                            <div class="bg-light card box">
-                                <div class="row">
-                                    <div class="col-8 ps-5 pt-4">
-                                        <a class=" text-decoration-none text-secondary" href="#">
-                                            <i class="bi bi-suit-heart"></i>
-                                        </a>
                                     </div>
-                                    <div class="col-4 pt-4 text-end">
-                                        <a class=" off-box bg-danger text-white text-decoration-none">15%</a>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="pb-2 col-6 offset-3">
-                                        <img src="img/bottle.png" class="card-img-top img-box m-auto" alt="محصول">
-                                    </div>
-                                </div>
-                                <div class="card-body bg-white border-radius-box">
-                                    <div class="row px-2" style="margin-top: -10px">
-                                        <div class="col-7">
-                                            <p class="h4 text-start text-secondary pt-1">روغن زیتون 00003</p>
-                                        </div>
-                                        <div class="col-5">
-                                            <a class="text-decoration-none text-white" href="#">
-                                                <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-35px;z-index:5;left: -10px; padding: 13px 13px"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="row" style="margin-top:-10px;">
-                                        <div class="col-lg-4 col-6">
+
+                                    <div class="row pt-4" style="margin-bottom: -20px">
+                                        <div class="col-lg-5 col-6">
                                             <p class="ps-1">
-                                                <del class="text-secondary">55000 تومان</del>
+                                                <del class="text-secondary" style="font-size: 23px">55000 تومان</del>
                                             </p>
                                         </div>
-                                        <div class="col-lg-4 col-6 text-start">
-                                            <h5 >40000 تومان</h5>
+                                        <div class="col-lg-5 col-6 text-start">
+                                            <h4>40000 تومان</h4>
                                         </div>
                                     </div>
-                                    <div class="col-12 text-primary pt-2  d-flex justify-content-start ms-1">
-                                        <a href="#" class="btn-box text-decoration-none me-2">رنگ</a>
-                                        <a href="#" class="btn-box text-decoration-none me-2">مزه</a>
-                                        <a href="#" class="btn-box text-decoration-none me-2">طمع</a>
-                                    </div>
+
                                 </div>
 
                             </div>
@@ -650,149 +683,158 @@
                     </div>
                 </div>
 
-                <div class="row gx-5">
-                    <div class=" col-lg-4 col-sm-12 my-3 ">
+                <div class="row">
+                    <div class=" col-lg-4 col-12 my-3 px-3 ">
                         <a href="#">
                             <div class="bg-light card box">
                                 <div class="row">
-                                    <div class="col-8 ps-5 pt-4">
+                                    <div class="col-7 ps-5 pt-4">
                                         <a class=" text-decoration-none text-secondary" href="#">
-                                            <i class="bi bi-suit-heart"></i>
+                                            <i class="bi bi-suit-heart"style="font-size: 23px"></i>
                                         </a>
                                     </div>
-                                    <div class="col-4 pt-4 text-end">
+                                    <div class="col-5 pt-4 text-end">
                                         <a class=" off-box bg-danger text-white text-decoration-none">15%</a>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="pb-2 col-6 offset-3">
-                                        <img src="img/bottle.png" class="card-img-top img-box m-auto" alt="محصول">
+                                <div class="row ">
+                                    <div class=" d-flex justify-content-center">
+                                        <img src="img/bottle.png" class="card-img-top img-box pb-1" alt="محصول">
                                     </div>
                                 </div>
                                 <div class="card-body bg-white border-radius-box">
-                                    <div class="row px-2" style="margin-top: -10px">
-                                        <div class="col-7">
-                                            <p class="h4 text-start text-secondary pt-1">روغن زیتون 00003</p>
+                                    <div class="row px-2">
+                                        <div class="col-9">
+                                            <p class=" text-start text-secondary" style="font-size: 30px;">روغن زیتون 00003</p>
+                                            <div class="col-12  d-flex justify-content-start ms-1"style="margin-top:-10px;font-family: 'IRANSansWeb', sans-serif">
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">رنگ: زرد</a>
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">مزه: ترش</a>
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">طمع: لورم</a>
+                                            </div>
                                         </div>
-                                        <div class="col-5">
+                                        <div class="col-3">
                                             <a class="text-decoration-none text-white" href="#">
-                                                <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-35px;z-index:5;left: -10px; padding: 13px 13px"></i>
+                                                <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-45px;z-index:5;left: -10px; padding: 15px 15px"></i>
                                             </a>
                                         </div>
+
                                     </div>
-                                    <div class="row" style="margin-top:-10px;">
-                                        <div class="col-lg-4 col-6">
+
+                                    <div class="row pt-4" style="margin-bottom: -20px">
+                                        <div class="col-lg-5 col-6">
                                             <p class="ps-1">
-                                                <del class="text-secondary">55000 تومان</del>
+                                                <del class="text-secondary" style="font-size: 23px">55000 تومان</del>
                                             </p>
                                         </div>
-                                        <div class="col-lg-4 col-6 text-start">
-                                            <h5 >40000 تومان</h5>
+                                        <div class="col-lg-5 col-6 text-start">
+                                            <h4>40000 تومان</h4>
                                         </div>
                                     </div>
-                                    <div class="col-12 text-primary pt-2  d-flex justify-content-start ms-1">
-                                        <a href="#" class="btn-box text-decoration-none me-2">رنگ</a>
-                                        <a href="#" class="btn-box text-decoration-none me-2">مزه</a>
-                                        <a href="#" class="btn-box text-decoration-none me-2">طمع</a>
-                                    </div>
+
                                 </div>
 
                             </div>
                         </a>
                     </div>
-                    <div class=" col-lg-4 col-sm-12 my-3 ">
+                    <div class=" col-lg-4 col-12 my-3 px-3 ">
                         <a href="#">
                             <div class="bg-light card box">
                                 <div class="row">
-                                    <div class="col-8 ps-5 pt-4">
+                                    <div class="col-7 ps-5 pt-4">
                                         <a class=" text-decoration-none text-secondary" href="#">
-                                            <i class="bi bi-suit-heart"></i>
+                                            <i class="bi bi-suit-heart"style="font-size: 23px"></i>
                                         </a>
                                     </div>
-                                    <div class="col-4 pt-4 text-end">
+                                    <div class="col-5 pt-4 text-end">
                                         <a class=" off-box bg-danger text-white text-decoration-none">15%</a>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="pb-2 col-6 offset-3">
-                                        <img src="img/bottle.png" class="card-img-top img-box m-auto" alt="محصول">
+                                <div class="row ">
+                                    <div class=" d-flex justify-content-center">
+                                        <img src="img/bottle.png" class="card-img-top img-box pb-1" alt="محصول">
                                     </div>
                                 </div>
                                 <div class="card-body bg-white border-radius-box">
-                                    <div class="row px-2" style="margin-top: -10px">
-                                        <div class="col-7">
-                                            <p class="h4 text-start text-secondary pt-1">روغن زیتون 00003</p>
+                                    <div class="row px-2">
+                                        <div class="col-9">
+                                            <p class=" text-start text-secondary" style="font-size: 30px;">روغن زیتون 00003</p>
+                                            <div class="col-12  d-flex justify-content-start ms-1"style="margin-top:-10px;font-family: 'IRANSansWeb', sans-serif">
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">رنگ: زرد</a>
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">مزه: ترش</a>
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">طمع: لورم</a>
+                                            </div>
                                         </div>
-                                        <div class="col-5">
+                                        <div class="col-3">
                                             <a class="text-decoration-none text-white" href="#">
-                                                <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-35px;z-index:5;left: -10px; padding: 13px 13px"></i>
+                                                <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-45px;z-index:5;left: -10px; padding: 15px 15px"></i>
                                             </a>
                                         </div>
+
                                     </div>
-                                    <div class="row" style="margin-top:-10px;">
-                                        <div class="col-lg-4 col-6">
+
+                                    <div class="row pt-4" style="margin-bottom: -20px">
+                                        <div class="col-lg-5 col-6">
                                             <p class="ps-1">
-                                                <del class="text-secondary">55000 تومان</del>
+                                                <del class="text-secondary" style="font-size: 23px">55000 تومان</del>
                                             </p>
                                         </div>
-                                        <div class="col-lg-4 col-6 text-start">
-                                            <h5 >40000 تومان</h5>
+                                        <div class="col-lg-5 col-6 text-start">
+                                            <h4>40000 تومان</h4>
                                         </div>
                                     </div>
-                                    <div class="col-12 text-primary pt-2  d-flex justify-content-start ms-1">
-                                        <a href="#" class="btn-box text-decoration-none me-2">رنگ</a>
-                                        <a href="#" class="btn-box text-decoration-none me-2">مزه</a>
-                                        <a href="#" class="btn-box text-decoration-none me-2">طمع</a>
-                                    </div>
+
                                 </div>
 
                             </div>
                         </a>
                     </div>
-                    <div class=" col-lg-4 col-sm-12 my-3 ">
+                    <div class=" col-lg-4 col-12 my-3 px-3 ">
                         <a href="#">
                             <div class="bg-light card box">
                                 <div class="row">
-                                    <div class="col-8 ps-5 pt-4">
+                                    <div class="col-7 ps-5 pt-4">
                                         <a class=" text-decoration-none text-secondary" href="#">
-                                            <i class="bi bi-suit-heart"></i>
+                                            <i class="bi bi-suit-heart"style="font-size: 23px"></i>
                                         </a>
                                     </div>
-                                    <div class="col-4 pt-4 text-end">
+                                    <div class="col-5 pt-4 text-end">
                                         <a class=" off-box bg-danger text-white text-decoration-none">15%</a>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="pb-2 col-6 offset-3">
-                                        <img src="img/bottle.png" class="card-img-top img-box m-auto" alt="محصول">
+                                <div class="row ">
+                                    <div class=" d-flex justify-content-center">
+                                        <img src="img/bottle.png" class="card-img-top img-box pb-1" alt="محصول">
                                     </div>
                                 </div>
                                 <div class="card-body bg-white border-radius-box">
-                                    <div class="row px-2" style="margin-top: -10px">
-                                        <div class="col-7">
-                                            <p class="h4 text-start text-secondary pt-1">روغن زیتون 00003</p>
+                                    <div class="row px-2">
+                                        <div class="col-9">
+                                            <p class=" text-start text-secondary" style="font-size: 30px;">روغن زیتون 00003</p>
+                                            <div class="col-12  d-flex justify-content-start ms-1"style="margin-top:-10px;font-family: 'IRANSansWeb', sans-serif">
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">رنگ: زرد</a>
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">مزه: ترش</a>
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">طمع: لورم</a>
+                                            </div>
                                         </div>
-                                        <div class="col-5">
+                                        <div class="col-3">
                                             <a class="text-decoration-none text-white" href="#">
-                                                <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-35px;z-index:5;left: -10px; padding: 13px 13px"></i>
+                                                <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-45px;z-index:5;left: -10px; padding: 15px 15px"></i>
                                             </a>
                                         </div>
+
                                     </div>
-                                    <div class="row" style="margin-top:-10px;">
-                                        <div class="col-lg-4 col-6">
+
+                                    <div class="row pt-4" style="margin-bottom: -20px">
+                                        <div class="col-lg-5 col-6">
                                             <p class="ps-1">
-                                                <del class="text-secondary">55000 تومان</del>
+                                                <del class="text-secondary" style="font-size: 23px">55000 تومان</del>
                                             </p>
                                         </div>
-                                        <div class="col-lg-4 col-6 text-start">
-                                            <h5 >40000 تومان</h5>
+                                        <div class="col-lg-5 col-6 text-start">
+                                            <h4>40000 تومان</h4>
                                         </div>
                                     </div>
-                                    <div class="col-12 text-primary pt-2  d-flex justify-content-start ms-1">
-                                        <a href="#" class="btn-box text-decoration-none me-2">رنگ</a>
-                                        <a href="#" class="btn-box text-decoration-none me-2">مزه</a>
-                                        <a href="#" class="btn-box text-decoration-none me-2">طمع</a>
-                                    </div>
+
                                 </div>
 
                             </div>
@@ -800,149 +842,158 @@
                     </div>
                 </div>
 
-                <div class="row gx-5">
-                    <div class=" col-lg-4 col-sm-12 my-3 ">
+                <div class="row">
+                    <div class=" col-lg-4 col-12 my-3 px-3 ">
                         <a href="#">
                             <div class="bg-light card box">
                                 <div class="row">
-                                    <div class="col-8 ps-5 pt-4">
+                                    <div class="col-7 ps-5 pt-4">
                                         <a class=" text-decoration-none text-secondary" href="#">
-                                            <i class="bi bi-suit-heart"></i>
+                                            <i class="bi bi-suit-heart"style="font-size: 23px"></i>
                                         </a>
                                     </div>
-                                    <div class="col-4 pt-4 text-end">
+                                    <div class="col-5 pt-4 text-end">
                                         <a class=" off-box bg-danger text-white text-decoration-none">15%</a>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="pb-2 col-6 offset-3">
-                                        <img src="img/bottle.png" class="card-img-top img-box m-auto" alt="محصول">
+                                <div class="row ">
+                                    <div class=" d-flex justify-content-center">
+                                        <img src="img/bottle.png" class="card-img-top img-box pb-1" alt="محصول">
                                     </div>
                                 </div>
                                 <div class="card-body bg-white border-radius-box">
-                                    <div class="row px-2" style="margin-top: -10px">
-                                        <div class="col-7">
-                                            <p class="h4 text-start text-secondary pt-1">روغن زیتون 00003</p>
+                                    <div class="row px-2">
+                                        <div class="col-9">
+                                            <p class=" text-start text-secondary" style="font-size: 30px;">روغن زیتون 00003</p>
+                                            <div class="col-12  d-flex justify-content-start ms-1"style="margin-top:-10px;font-family: 'IRANSansWeb', sans-serif">
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">رنگ: زرد</a>
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">مزه: ترش</a>
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">طمع: لورم</a>
+                                            </div>
                                         </div>
-                                        <div class="col-5">
+                                        <div class="col-3">
                                             <a class="text-decoration-none text-white" href="#">
-                                                <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-35px;z-index:5;left: -10px; padding: 13px 13px"></i>
+                                                <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-45px;z-index:5;left: -10px; padding: 15px 15px"></i>
                                             </a>
                                         </div>
+
                                     </div>
-                                    <div class="row" style="margin-top:-10px;">
-                                        <div class="col-lg-4 col-6">
+
+                                    <div class="row pt-4" style="margin-bottom: -20px">
+                                        <div class="col-lg-5 col-6">
                                             <p class="ps-1">
-                                                <del class="text-secondary">55000 تومان</del>
+                                                <del class="text-secondary" style="font-size: 23px">55000 تومان</del>
                                             </p>
                                         </div>
-                                        <div class="col-lg-4 col-6 text-start">
-                                            <h5 >40000 تومان</h5>
+                                        <div class="col-lg-5 col-6 text-start">
+                                            <h4>40000 تومان</h4>
                                         </div>
                                     </div>
-                                    <div class="col-12 text-primary pt-2  d-flex justify-content-start ms-1">
-                                        <a href="#" class="btn-box text-decoration-none me-2">رنگ</a>
-                                        <a href="#" class="btn-box text-decoration-none me-2">مزه</a>
-                                        <a href="#" class="btn-box text-decoration-none me-2">طمع</a>
-                                    </div>
+
                                 </div>
 
                             </div>
                         </a>
                     </div>
-                    <div class=" col-lg-4 col-sm-12 my-3 ">
+                    <div class=" col-lg-4 col-12 my-3 px-3 ">
                         <a href="#">
                             <div class="bg-light card box">
                                 <div class="row">
-                                    <div class="col-8 ps-5 pt-4">
+                                    <div class="col-7 ps-5 pt-4">
                                         <a class=" text-decoration-none text-secondary" href="#">
-                                            <i class="bi bi-suit-heart"></i>
+                                            <i class="bi bi-suit-heart"style="font-size: 23px"></i>
                                         </a>
                                     </div>
-                                    <div class="col-4 pt-4 text-end">
+                                    <div class="col-5 pt-4 text-end">
                                         <a class=" off-box bg-danger text-white text-decoration-none">15%</a>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="pb-2 col-6 offset-3">
-                                        <img src="img/bottle.png" class="card-img-top img-box m-auto" alt="محصول">
+                                <div class="row ">
+                                    <div class=" d-flex justify-content-center">
+                                        <img src="img/bottle.png" class="card-img-top img-box pb-1" alt="محصول">
                                     </div>
                                 </div>
                                 <div class="card-body bg-white border-radius-box">
-                                    <div class="row px-2" style="margin-top: -10px">
-                                        <div class="col-7">
-                                            <p class="h4 text-start text-secondary pt-1">روغن زیتون 00003</p>
+                                    <div class="row px-2">
+                                        <div class="col-9">
+                                            <p class=" text-start text-secondary" style="font-size: 30px;">روغن زیتون 00003</p>
+                                            <div class="col-12  d-flex justify-content-start ms-1"style="margin-top:-10px;font-family: 'IRANSansWeb', sans-serif">
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">رنگ: زرد</a>
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">مزه: ترش</a>
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">طمع: لورم</a>
+                                            </div>
                                         </div>
-                                        <div class="col-5">
+                                        <div class="col-3">
                                             <a class="text-decoration-none text-white" href="#">
-                                                <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-35px;z-index:5;left: -10px; padding: 13px 13px"></i>
+                                                <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-45px;z-index:5;left: -10px; padding: 15px 15px"></i>
                                             </a>
                                         </div>
+
                                     </div>
-                                    <div class="row" style="margin-top:-10px;">
-                                        <div class="col-lg-4 col-6">
+
+                                    <div class="row pt-4" style="margin-bottom: -20px">
+                                        <div class="col-lg-5 col-6">
                                             <p class="ps-1">
-                                                <del class="text-secondary">55000 تومان</del>
+                                                <del class="text-secondary" style="font-size: 23px">55000 تومان</del>
                                             </p>
                                         </div>
-                                        <div class="col-lg-4 col-6 text-start">
-                                            <h5 >40000 تومان</h5>
+                                        <div class="col-lg-5 col-6 text-start">
+                                            <h4>40000 تومان</h4>
                                         </div>
                                     </div>
-                                    <div class="col-12 text-primary pt-2  d-flex justify-content-start ms-1">
-                                        <a href="#" class="btn-box text-decoration-none me-2">رنگ</a>
-                                        <a href="#" class="btn-box text-decoration-none me-2">مزه</a>
-                                        <a href="#" class="btn-box text-decoration-none me-2">طمع</a>
-                                    </div>
+
                                 </div>
 
                             </div>
                         </a>
                     </div>
-                    <div class=" col-lg-4 col-sm-12 my-3 ">
+                    <div class=" col-lg-4 col-12 my-3 px-3 ">
                         <a href="#">
                             <div class="bg-light card box">
                                 <div class="row">
-                                    <div class="col-8 ps-5 pt-4">
+                                    <div class="col-7 ps-5 pt-4">
                                         <a class=" text-decoration-none text-secondary" href="#">
-                                            <i class="bi bi-suit-heart"></i>
+                                            <i class="bi bi-suit-heart"style="font-size: 23px"></i>
                                         </a>
                                     </div>
-                                    <div class="col-4 pt-4 text-end">
+                                    <div class="col-5 pt-4 text-end">
                                         <a class=" off-box bg-danger text-white text-decoration-none">15%</a>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="pb-2 col-6 offset-3">
-                                        <img src="img/bottle.png" class="card-img-top img-box m-auto" alt="محصول">
+                                <div class="row ">
+                                    <div class=" d-flex justify-content-center">
+                                        <img src="img/bottle.png" class="card-img-top img-box pb-1" alt="محصول">
                                     </div>
                                 </div>
                                 <div class="card-body bg-white border-radius-box">
-                                    <div class="row px-2" style="margin-top: -10px">
-                                        <div class="col-7">
-                                            <p class="h4 text-start text-secondary pt-1">روغن زیتون 00003</p>
+                                    <div class="row px-2">
+                                        <div class="col-9">
+                                            <p class=" text-start text-secondary" style="font-size: 30px;">روغن زیتون 00003</p>
+                                            <div class="col-12  d-flex justify-content-start ms-1"style="margin-top:-10px;font-family: 'IRANSansWeb', sans-serif">
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">رنگ: زرد</a>
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">مزه: ترش</a>
+                                                <a href="#" class="btn-box text-decoration-none me-2 ">طمع: لورم</a>
+                                            </div>
                                         </div>
-                                        <div class="col-5">
+                                        <div class="col-3">
                                             <a class="text-decoration-none text-white" href="#">
-                                                <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-35px;z-index:5;left: -10px; padding: 13px 13px"></i>
+                                                <i class="bi bi-cart3 bg-danger  m-1 rounded-circle float-end" style="line-height:1;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);position: relative; top:-45px;z-index:5;left: -10px; padding: 15px 15px"></i>
                                             </a>
                                         </div>
+
                                     </div>
-                                    <div class="row" style="margin-top:-10px;">
-                                        <div class="col-lg-4 col-6">
+
+                                    <div class="row pt-4" style="margin-bottom: -20px">
+                                        <div class="col-lg-5 col-6">
                                             <p class="ps-1">
-                                                <del class="text-secondary">55000 تومان</del>
+                                                <del class="text-secondary" style="font-size: 23px">55000 تومان</del>
                                             </p>
                                         </div>
-                                        <div class="col-lg-4 col-6 text-start">
-                                            <h5 >40000 تومان</h5>
+                                        <div class="col-lg-5 col-6 text-start">
+                                            <h4>40000 تومان</h4>
                                         </div>
                                     </div>
-                                    <div class="col-12 text-primary pt-2  d-flex justify-content-start ms-1">
-                                        <a href="#" class="btn-box text-decoration-none me-2">رنگ</a>
-                                        <a href="#" class="btn-box text-decoration-none me-2">مزه</a>
-                                        <a href="#" class="btn-box text-decoration-none me-2">طمع</a>
-                                    </div>
+
                                 </div>
 
                             </div>
@@ -986,10 +1037,10 @@
 <section>
     <div class="container">
         <div class="row py-4 ">
-            <div class="col-lg-2 col-sm-4 mt-2">
+            <div class="col-lg-2 col-4 mt-2">
                 <h4 class="text-dark">پست های وبلاگ</h4>
             </div>
-            <div class="col-lg-10 col-sm-8 mt-2 ">
+            <div class="col-lg-10 col-8 mt-2 ">
                 <p class="text-end h5 pe-4"><a href="#" class="text-decoration-none text-secondary">مشاهده همه</a></p>
             </div>
             <div class="row">
@@ -1115,39 +1166,64 @@
     $('.slider').slick({
         dots: true,
         rtl: true,
-        infinite: false,
+        infinite: true,
         speed: 300,
         slidesToShow: 3,
         slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        arrows : true,
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots: true
+                    dots: true,
+                    autoplay: true,
+                    autoplaySpeed: 5000,
                 }
             },
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 5000,
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 4000,
                 }
             }
             // You can unslick at a given breakpoint now by adding:
             // settings: "unslick"
             // instead of a settings object
         ]
+
     });
+
+</script>
+
+<script type="text/javascript">
+
+    window.onscroll = function() {myFunction()};
+    document.getElementById("myP").style .backgroundColor=('rgba(0,0,0,0.4)');
+    function myFunction() {
+        if (document.documentElement.scrollTop < 100) {
+            document.getElementById("myP").style .backgroundColor=('rgba(0,0,0,0.4)');
+        } else {
+            document.getElementById("myP").style .backgroundColor='#007fff';
+        }
+    }
+
 </script>
 
 
