@@ -1,27 +1,49 @@
 
 @font-face {
+    font-family:'IRANSansWeb';
+
+    src: url("../fonts/IRANSansWeb.ttf") format('truetype');
+    src: url("../fonts/IRANSansWeb.eot") format('eot');
+    src: url("../fonts/IRANSansWeb.woff") format('woff');
+}
+
+@font-face {
     font-family: 'IRANSansWeb_Bold';
-    src: url("../font/IRAN Sans Bold (mmrostami.blog.ir).ttf") format('truetype');
+    src: url("../fonts/IRANSansWeb_Bold.ttf") format('truetype');
+    src: url("../fonts/IRANSansWeb_Bold.woff") format('woff');
+    src: url("../fonts/IRANSansWeb_Bold.woff2") format('woff');
+}
+
+@font-face {
+    font-family: 'IRANSansWeb_Light';
+    src: url("../fonts/IRANSansWeb_Light.ttf") format('truetype');
+    src: url("../fonts/IRANSansWeb_light.eot") format('eot');
+    src: url("../fonts/IRANSansWeb_light.woff2") format('woff');
 }
 
 body{
-    margin-top: 0px;
+    margin-top: 0;
+    font-family:'IRANSansWeb',sans-serif ;
+}
+
+
+h1,h2,h3,h4,h5,h6{
     font-family:'IRANSansWeb_Bold',sans-serif ;
 }
 
-.background-navbar {
-    /*background-color:rgba(0,0,0,0.6) ;*/
-}
+
 .btn-nav{
     padding:2px 30px 2px 30px;
     background-color: white;
     border-radius: 20px;
 }
 
+
 .btn-nav:hover{
     background-color: #0a53be;
     color: whitesmoke;
 }
+
 
 .btn-header{
     padding: 4px 20px 4px 20px;
@@ -29,6 +51,7 @@ body{
     background-color: whitesmoke;
     color: #0a53be;
 }
+
 
 .btn-header:hover{
     background-color: #0a53be;
@@ -53,15 +76,16 @@ body{
     padding: 3px 15px 3px 15px;
     border-end-start-radius: 15px;
     border-top-right-radius:15px ;
-
-
 }
+
+
 .box{
     border: none;
     border-radius: 25px;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
 
 }
+
 
 .border-radius-box{
     border-bottom-left-radius:25px;
@@ -73,12 +97,12 @@ footer{
     background-color: #181818;
 }
 
+
 .btn-background-header{
     background-color: rgba(0,0,0, 0.2);
     padding: 12px 11px 7px 11px;
     border-radius: 25px;
     line-height: 1;
-
 }
 
 
@@ -86,30 +110,6 @@ footer{
     border-top: 3px #fa6d18 solid;
 }
 
-.slick-arrow {
-
-    /*background-color:rgba(0,0,0, 0.1) !important;*/
-
-}
-.slick-next, .slick-prev{
-    /*top: -12% !important;*/
-    /*width:40px !important;*/
-    /*height: 40px!important;*/
-    /*line-height:1 !important;*/
-    /*border-radius: 60px;*/
-    /*color: black!important;*/
-    /*background: darkgrey!important;*/
-    /*outline: none!important;*/
-}
-
-/*.slick-prev{*/
-/*    right:93% !important;*/
-/*    left: 7% !important;*/
-/*}*/
-
-/*.slick-next{*/
-/*    left:3% !important;*/
-/*}*/
 
 .img-icon{
     width: 110px;
@@ -121,6 +121,8 @@ footer{
 .envelope-bg{
     background-color: #4466D8;
 }
+
+
 .a-text-color{
     color: black;
 }
@@ -142,7 +144,6 @@ footer{
     margin: 0;
 }
 
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -153,7 +154,7 @@ footer{
     */
     width: 90%;
     left:5%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 2;
 }
 
@@ -195,7 +196,7 @@ footer{
     display: table;
     clear: both;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 940px) {
     .mmcolumn {
         width: 100%;
         height: auto;
@@ -208,46 +209,41 @@ footer{
 
 
 
-/*.slick-prev:before {*/
-/*    background-image: url('images/arrow-left.png');*/
-/*    background-size: 50px 50px;*/
-/*    display: inline-block;*/
-/*    width: 50px;*/
-/*    height: 50px;*/
-/*    content:"";*/
-/*}*/
-/*.slick-next:before {*/
-/*    background-image: url('images/arrow-right.png');*/
-/*    background-size: 50px 50px;*/
-/*    display: inline-block;*/
-/*    width: 50px;*/
-/*    height: 50px;*/
-/*    content:"";*/
-/*}*/
 
 
-.slick-prev:before {
-    background-image: url('../img/prev.png') !important;
-    background-size: 50px 50px!important;
-    display: inline-block!important;
-    width: 50px!important;
-    height: 50px!important;
-    content:""!important;
-    margin-right: -25px;!important;
-}
-.slick-next:before {
-    background-image: url('../img/next.png')!important;
-    background-size: 50px 50px!important;
-    display: inline-block!important;
-    width: 50px!important;
-    height: 50px!important;
-    content:""!important;
-    /*margin-left: 10px;!important;*/
+
+
+    .slick-prev:before, .slick-next:before {
+    font-size: 30px !important;
+    color: black !important;
 }
 
 
 
 .btn-menu:hover{
-    /*color: white;*/
-    text-shadow: 2px 2px 4px #ffffff;
+    /*text-shadow: 2px 2px 4px #ffffff;*/
+    border-bottom: white 2px solid;
 }
+
+.border-box{
+    border: 2px black solid;
+}
+
+.searchbox{
+    top:60px;
+    left:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
